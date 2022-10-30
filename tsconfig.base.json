@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ayoub-comp/data": ["libs/data/src/index.ts"],
+      "@ayoub-comp/data-access": ["libs/data-access/src/index.ts"],
+      "@ayoub-comp/dataaccess": ["libs/dataaccess/src/index.ts"],
+      "@ayoub-comp/people": ["libs/people/src/index.ts"],
+      "@ayoub-comp/person": ["libs/person/src/index.ts"],
+      "@ayoub-comp/personv": ["libs/personv/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
