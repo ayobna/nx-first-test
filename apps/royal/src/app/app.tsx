@@ -1,13 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
 
-export function App() {
+import { People } from '@ayoub-comp/people';
+export function App({ title }: { title: string }) {
   return (
-    <>
-      <NxWelcome title="royal" />
-      <div />
-    </>
+   <div>
+      <People  key={2} />
+   </div>
   );
 }
 
